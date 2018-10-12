@@ -509,6 +509,11 @@ a.active{
     }
 
 }
+@media screen and (max-width: 768px){
+    .search-text{
+        width: 89.5%;
+    }
+}
 
 @media screen and (max-width: 600px){
     .info-page a:first-child{
@@ -522,6 +527,9 @@ a.active{
         height: 38px;
         line-height: 38px;
     }
+    .search-text{
+        width: 86%;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -530,10 +538,20 @@ a.active{
     }
 
 }
+@media screen and (max-width: 480px){
+    .search-text{
+        width: 84%;
+    }
+}
 @media screen and (max-width: 380px){
     .info-page a span{
         width: 30px;
         height: 30px;
         line-height: 30px;
+    }
+}
+@media screen and (max-width: 320px){
+    .search-text{
+        width: 80%;
     }
 }
